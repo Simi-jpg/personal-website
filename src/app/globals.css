@@ -4,8 +4,12 @@
 
 :root {
   --color-pink: #f6c1cc;
-  --color-cream: #f9f1d7;
+  --color-black: #000000;
   --color-green: #8cb561;
+  --color-background: white;
+  --color-cream: #f9f1d7;
+  --color-bubble-pink: rgba(181, 93, 110, 0.25);
+  --color-bubble-green: rgba(140, 181, 97, 0.25);
 
   --akaya-kanadaka: "var(--font-akaya-kanadaka)";
   --geistMono: "var(--font-geist-mono)";
@@ -15,6 +19,90 @@
 
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Akaya Kanadaka', cursive;
+  background-color: var(--color-background);
+}
+
+/* Navbar*/
+.navbar {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  transition: var(--transition-regular);
+}
+
+/* Navbar underline animation.
+  0% - no underline
+  2px - full underline
+*/
+.navbar::after,
+.navbar::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  transition: var(--transition-regular);
+}
+
+/* Pink line at the top */
+.navbar::after {
+  top: 0;
+  left: 0;
+  background-color: var(--color-pink);
+}
+
+/* Green line at the bottom */
+.navbar::before {
+  bottom: 0;
+  right: 0;
+  background-color: var(--color-green);
+}
+
+.navbar:hover::after,
+.navbar:hover::before {
+  width: 100%;
+}
+
+.active-nav::after,
+.active-nav::before {
+  width: 100%;
+}
+
+/* Floating animation for the orbit buttons */
+@keyframes float {
+  0%   { transform: translate(0px, 0px); }
+  25%  { transform: translate(10px, -15px); }
+  50%  { transform: translate(-8px, -25px); }
+  75%  { transform: translate(-12px, -10px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.float-slow {
+  animation: float 8s ease-in-out infinite;
+}
+
+.float-medium {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float-fast {
+  animation: float 4.5s ease-in-out infinite;
+}
+
+/* Butterfly animation */
+@keyframes fadeTrail {
+  0% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+  
 }

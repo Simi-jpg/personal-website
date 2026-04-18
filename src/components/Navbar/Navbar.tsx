@@ -20,7 +20,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[var(--color-cream)] transition-all duration-500">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[var(--color-black)] transition-all duration-500">  {/* The color of the navbar is cream */}
       <div className="flex justify-between items-center px-[8%] lg:px-[12%] py-4">
         <div className="flex flex-col leading-tight">
           <button onClick={handleLogoClick}>
@@ -34,10 +34,10 @@ export default function Navbar() {
             <li key={i}>
               <button
                 onClick={() => setActiveItem(item)}
-                className={`relative transition-all duration-300 cursor-pointer ${
+                className={`navbar relative transition-all duration-300 cursor-pointer ${
                   activeMenuItem === item
-                    ? "text-[var(--color-pink)]"
-                    : "text-[var(--color-green)]"
+                    ? "text-[var(--color-pink)]" //selected item is pink [TODO: make it bigger if selected]
+                    : "text-[var(--color-green)]" //others are green
                 }`}
               >
                 {item}
