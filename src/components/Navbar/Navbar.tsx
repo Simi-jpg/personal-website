@@ -7,7 +7,7 @@ const menuItems = [
   // {label: "home", href: "/"},
   {label: "about", href: "/about"},
   {label: "projects", href: "/projects"},
-  {label: "thoughts.log", href: "/thoughts"},
+  // {label: "thoughts.log", href: "/thoughts"},
   {label: "connect", href: "/connect"},
 ];
 
