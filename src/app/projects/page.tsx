@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   const projects = [
     {
       title: "Campus Shenanigans",
-      label: "Featured Project",
+      label: "Software Design Android App",
       description:
         "Built to solve a real student problem: missing campus events and opportunities. Designed and developed as an Android platform with clean layered architecture, role-based access, and offline-first usability.",
       tech: ["Java", "Android", "SQLite", "Architecture"],
@@ -29,6 +29,15 @@ export default function ProjectsPage() {
       tech: ["SQL", "Python", "CLI", "Data Cleaning"],
       github: "https://github.com/Simi-jpg/database-nba",
       projectLink: "#",
+    },
+    {
+      title: "Semantic Search Engine",
+      label: "Embeddings & NLP",
+      description:
+        "Created a semantic search engine using sentence transformers and vector databases. Focused on efficient indexing, retrieval, and practical NLP applications.",
+      tech: ["Python", "NLP", "Embeddings", "Vector DBs"],
+      github: "https://github.com/Simi-jpg/cohere-semantic-search-api",
+      projectLink: "https://cohere-search-frontend.vercel.app/",
     }
   ];
 
