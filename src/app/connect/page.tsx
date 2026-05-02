@@ -18,7 +18,7 @@ export default function ConnectPage() {
   ];
 
   return (
-    <main className="relative min-h-screen bg-[var(--color-black)] text-white overflow-hidden px-6 pt-32 pb-20">
+    <main className="relative min-h-screen text-white overflow-hidden px-6 pt-32 pb-20">
 
       {/*Glitter stars */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.8)_1px,transparent_2px),radial-gradient(circle_at_70%_30%,rgba(255,255,255,0.6)_1px,transparent_2px),radial-gradient(circle_at_40%_70%,rgba(255,255,255,0.5)_1px,transparent_2px)] bg-[length:200px_200px,260px_260px,320px_320px] opacity-60" />

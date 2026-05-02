@@ -42,7 +42,7 @@ export default function ProjectsPage() {
   ];
 
   return (
-    <main className="bg-[var(--color-black)] text-white">
+    <main className="text-white">
       {/* Section 1 Hero */}
       <ProjectsHero />
 

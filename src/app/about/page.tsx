@@ -7,7 +7,9 @@ export default function About() {
 
         {/* Left Panel */}
 
-        <div className = "rounded-3xl bg-[var(--color-white)] backdrop-blur-md p-8 shadow-[0_0_120px_rgba(246,193,204,1.0)] min-h-[300px] rotate-[-3deg]">
+        <div className="rounded-3xl border border-[var(--color-pink)] bg-white/5 backdrop-blur-md p-8
+              shadow-[inset_0_0_8px_rgba(140,181,97,0.25),0_0_15px_rgba(140,181,97,0.15)] rotate-[-3deg]
+            ">
          
           <p>
             Hi, I&apos;m Simi. I&apos;m someone who learns by exploring. Instead of committing to one path early, I&apos;ve spent time trying different areas of tech to understand what actually fits me.
@@ -21,9 +23,11 @@ export default function About() {
 
         {/* Right Panel */}
 
-        <div className = "rounded-3xl bg-[var(--color-white)] backdrop-blur-md p-8 shadow-[0_0_120px_rgba(140,181,97,1.0)] min-h-[300px] rotate-[4deg]">
-          
-          <p>
+        {/* <div className = "rounded-3xl bg-[var(--color-white)] backdrop-blur-md p-8 border-10 border-[var(--color-green)] min-h-[300px] rotate-[4deg]"> */}
+          <div className="rounded-3xl border border-[var(--color-green)] bg-white/5 backdrop-blur-md p-8
+              shadow-[inset_0_0_8px_rgba(140,181,97,0.25),0_0_15px_rgba(140,181,97,0.15)] rotate-[3deg]
+            ">
+                      <p>
             I&apos;m currently a third-year Computer Science student at the University of Manitoba, actively working toward my first co-op opportunity.
 
             Through my coursework and projects, I&apos;ve focused on building strong fundamentals in software development. My work on Campus Shenanigans helped me understand how to structure applications using layered architecture, and how to think through both system design and user experience.
