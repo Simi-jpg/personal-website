@@ -15,6 +15,11 @@ export default function ConnectPage() {
       value: "Similoluwa Adeniyi",
       link: "https://www.linkedin.com/in/similoluwa-adeniyi-a816ab307/",
     },
+    {
+      label: "Resume",
+      value: "View My Resume",
+      link: "/Simi-Adeniyi-Resume.pdf",
+    },
   ];
 
   return (
