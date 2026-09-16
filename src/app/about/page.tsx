@@ -12,12 +12,13 @@ export default function About() {
             ">
          
           <p>
-            Hi, I&apos;m Simi. I&apos;m someone who learns by exploring. Instead of committing to one path early, I&apos;ve spent time trying different areas of tech to understand what actually fits me.
 
-            I enjoy when things feel personal. Whether it&apos;s building this website or working on a project, I naturally lean toward creating things that reflect identity rather than just functionality.
+            I&apos;m a fourth-year Computer Science Co-op student at the University of Manitoba, with a minor in Mathematics.
 
-            A lot of my ideas come from connecting things I enjoy outside of tech like music, visuals, storytelling, and then bringing that into what I build.
-          </p>
+            My primary interest lies in software development, and I&apos;m currently seeking my first co-op work term. I&apos;m excited to take my knowledge beyond the classroom, 
+            contribute to real-world software, and gain professional experience working alongside other developers.
+
+            </p>
           
         </div>
 
@@ -27,12 +28,18 @@ export default function About() {
           <div className="rounded-3xl border border-[var(--color-green)] bg-white/5 backdrop-blur-md p-8
               shadow-[inset_0_0_8px_rgba(140,181,97,0.25),0_0_15px_rgba(140,181,97,0.15)] rotate-[3deg]
             ">
-                      <p>
-            I&apos;m currently a third-year Computer Science student at the University of Manitoba, actively working toward my first co-op opportunity.
+          <p>
+            
+            I&apos;m open to exploring different areas of software development and look forward to discovering where my skills and interests can make the greatest impact.
 
-            Through my coursework and projects, I&apos;ve focused on building strong fundamentals in software development. My work on Campus Shenanigans helped me understand how to structure applications using layered architecture, and how to think through both system design and user experience.
+            Outside of computer science, I enjoy playing the cello, badminton, drawing, reading, and hiking. I also love experimenting with pasta recipes 
+            and am currently on a mission to perfect my Alfredo sauce.
 
-            I tend to learn best by building, which has led me to explore different areas of development as I refine where I want to specialize. Right now, I&apos;m especially interested in roles that allow me to contribute to real systems while continuing to grow as a developer.
+            I&apos;m always looking for something new to try, whether that&apos;s rock climbing, volleyball, or pretty much any activity that catches my attention. 
+            I enjoy playing games too (Candy Crush counts, and I will not be taking any questions). I also take my sleep very seriously and make sure to get my eight hours.
+
+            If I could, I&apos;d probably disappear into the countryside and raise ten pigs. But for now, I&apos;ve got a degree to finish.
+
           </p>
           
         </div>

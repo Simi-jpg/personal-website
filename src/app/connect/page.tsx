@@ -2,8 +2,8 @@ export default function ConnectPage() {
   const contactItems = [
     {
       label: "Email",
-      value: "simiadeniyi97@gmail.com",
-      link: "mailto:simiadeniyi97@gmail.com",
+      value: "adeniy15@myumanitoba.ca",
+      link: "mailto:adeniy15@myumanitoba.ca",
     },
     {
       label: "GitHub",

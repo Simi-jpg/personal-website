@@ -1,8 +1,9 @@
-import avatar from "@/../public/assets/img/avatar.png";
-import books from "@/../public/assets/img/books.png"; 
-import games from "@/../public/assets/img/games.png";
-import music from "@/../public/assets/img/music.png";
-import pasta from "@/../public/assets/img/pasta.png";
+const avatar = "/assets/img/avatar.png";
+const books = "/assets/img/books.png";
+const games = "/assets/img/games.png";
+const music = "/assets/img/music.png";
+const pasta = "/assets/img/pasta.png";
+const cello = "/assets/img/cello.png";
 
 import Image from "next/image";
 import OrbitButton  from "@/components/OrbitButtons/OrbitButton";
@@ -19,23 +20,27 @@ export default function Home() {
         <div className="relative w-[1100px] h-[900px] flex items-center justify-center">
 
           {/* Top - left */}   
-          <div className = "absolute top-[12%] left-[12%] z-10">
+          <div className = "absolute top-[12%] left-[-22%] z-10">
             <OrbitButton label = "about.exe" imageSrc = {games} variant="green" className="float-slow"/>
           </div>
 
+          <div className = "absolute top-[10%] right-[-20%] z-10">
+            <OrbitButton label = "cello" imageSrc = {cello} variant="pink" className="float-fast"/>
+          </div>
+
           {/* Top - Right */}
-          <div className = "absolute top-[18%] right-[10%] z-10">
-            <OrbitButton label = "connect" imageSrc = {books} variant="pink" className="float-medium"/>
+          <div className = "absolute top-[18%] right-[-40%] z-10">
+            <OrbitButton label = "connect" imageSrc = {books} variant="green" className="float-medium"/>
           </div>  
 
           {/* Bottom - right */}
-          <div className = "absolute bottom-[10%] right-[14%] z-10">
-            <OrbitButton label = "projects/" imageSrc = {pasta} variant="green" className="float-slow"/>
+          <div className = "absolute bottom-[10%] right-[-20%] z-10">
+            <OrbitButton label = "projects/" imageSrc = {pasta} variant="pink" className="float-slow"/>
           </div>
 
           {/* Bottom - left*/}
-          <div className = "absolute bottom-[14%] left-[8%] z-10">
-            <OrbitButton label = "thoughts.log" imageSrc = {music} variant="pink" className="float-fast"/>
+          <div className = "absolute bottom-[14%] left-[-20%] z-10">
+            <OrbitButton label = "thoughts.log" imageSrc = {music} variant="green" className="float-fast"/>
           </div>
 
 

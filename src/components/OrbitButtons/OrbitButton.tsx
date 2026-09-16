@@ -1,9 +1,9 @@
 //component has a string in it
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 type OrbitButtonProps = {
     label: string;
-    imageSrc?: StaticImageData;
+    imageSrc?: string;
     variant?: "pink" | "green"; //we choose colors based on the variant prop, default is pink
     className?: string;
 };
