@@ -13,7 +13,7 @@ export default function ConnectPage() {
     {
       label: "LinkedIn",
       value: "Similoluwa Adeniyi",
-      link: "https://www.linkedin.com/in/similoluwa-adeniyi-a816ab307/",
+      link: "https://www.linkedin.com/in/simi-adeniyi-jpg",
     },
     {
       label: "Resume",
